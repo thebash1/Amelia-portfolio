@@ -672,6 +672,14 @@ span {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     }
+
+    .service-box {
+        height: 400px;
+    }
+    .service-info p {
+        padding-bottom: 5rem;
+        font-size: 15px;
+    }
 }
 
 
