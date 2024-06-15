@@ -298,8 +298,8 @@ span {
 }
 
 .education {
-    padding: 100px 15;
-    background: var(--second-bg-color);
+    padding: 100px 15px;
+    background: var(--bg-color);
 }
 
 .education h2 {
@@ -411,7 +411,7 @@ span {
 }
 
 .services h2 {
-    margin-bottom: 5rem;
+    padding-bottom: 2rem;
     color: white;
 }
 
@@ -442,7 +442,7 @@ span {
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
+    max-height: 300px;
     justify-content: left;
     align-items: baseline;
     padding: 5rem 5rem;
@@ -457,7 +457,7 @@ span {
 .service-info p {
     font-size: 1.6rem;
     font-weight: 600;
-    max-height: 100px;
+    max-height: 300px;
     line-height: 1.7;
     margin: auto;
 }
@@ -664,9 +664,24 @@ span {
     .home-img img {
         width: 56vw;
     }
+    
+    .education {
+        padding-top: 1rem;
+        margin-top: 0;
+        padding-bottom: 2rem;
+    }
+
+    .education h2 {
+        margin-top: 0;
+    }
+
+    .services {
+        padding-top: 0rem;
+    }
 
     .services h2 {
-        margin-bottom: 3rem;
+        padding-top: 0;
+        margin-bottom: 5rem;
     }
 
     .services-container {
@@ -680,20 +695,12 @@ span {
         padding-bottom: 5rem;
         font-size: 15px;
     }
+    .contact {
+        padding-top: 1rem;
+        margin-top: 4rem
+    }
+
+    .contact h2 {
+        margin-top: 0rem;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
